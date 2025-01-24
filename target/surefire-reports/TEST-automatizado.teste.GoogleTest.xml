@@ -1,71 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="automatizado.teste.GoogleTest" time="0.037" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="automatizado.teste.GoogleTest" time="6.987" tests="2" errors="1" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="22"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\Renan\automatizado\target\test-classes;C:\Users\Renan\automatizado\target\classes;C:\Users\Renan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Renan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Renan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Renan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Renan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Renan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Renan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Renan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Renan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Renan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Renan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Renan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="22"/>
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Renan\AppData\Local\Temp\surefire16372541526196131975\surefirebooter5414020834600481061.jar C:\Users\Renan\AppData\Local\Temp\surefire16372541526196131975 2025-01-22T20-31-10_971-jvmRun1 surefire1447422743205559585tmp surefire_011994617839121199848tmp"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="test" value="automatizado.teste.GoogleTest"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_431\bin"/>
+    <property name="sun.java.command" value="C:\Users\Renan\AppData\Local\Temp\surefire6007788021474986310\surefirebooter2638832749256693952.jar C:\Users\Renan\AppData\Local\Temp\surefire6007788021474986310 2025-01-24T17-00-29_198-jvmRun1 surefire708768994707511255tmp surefire_06057878979405885314tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Renan\automatizado\target\test-classes;C:\Users\Renan\automatizado\target\classes;C:\Users\Renan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Renan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Renan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Renan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Renan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Renan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Renan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Renan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Renan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Renan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Renan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Renan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Renan"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-04-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
-    <property name="file.separator" value="\"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_431"/>
     <property name="basedir" value="C:\Users\Renan\automatizado"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Renan\AppData\Local\Temp\surefire16372541526196131975\surefirebooter5414020834600481061.jar"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Renan\AppData\Local\Temp\surefire6007788021474986310\surefirebooter2638832749256693952.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_431\lib\resources.jar;C:\Program Files\Java\jre1.8.0_431\lib\rt.jar;C:\Program Files\Java\jre1.8.0_431\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_431\lib\jce.jar;C:\Program Files\Java\jre1.8.0_431\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_431\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_431\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="java.runtime.version" value="1.8.0_431-b10"/>
     <property name="user.name" value="Rennan"/>
-    <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_431\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="C:\Users\Renan\.vscode\extensions\oracle.oracle-java-23.0.1\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\Renan\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Renan\AppData\Local\Temp\"/>
-    <property name="java.version" value="22.0.1"/>
+    <property name="java.version" value="1.8.0_431"/>
     <property name="user.dir" value="C:\Users\Renan\automatizado"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\msys64\mingw64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Renan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Renan\AppData\Local\Programs\Python\Python312\;C:\Users\Renan\AppData\Local\Microsoft\WindowsApps;C:\Users\Renan\.dotnet\tools;C:\Users\Renan\AppData\Local\Programs\Microsoft VS Code\bin;D:\ANTLR4\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.1\bin;;D:\CLion 2024.3\bin;;D:\IntelliJ IDEA 2024.1.3\bin;;D:\PyCharm 2024.1.3\bin;;D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_431\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\msys64\mingw64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Renan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Renan\AppData\Local\Programs\Python\Python312\;C:\Users\Renan\AppData\Local\Microsoft\WindowsApps;C:\Users\Renan\.dotnet\tools;C:\Users\Renan\AppData\Local\Programs\Microsoft VS Code\bin;D:\ANTLR4\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.1\bin;;D:\CLion 2024.3\bin;;D:\IntelliJ IDEA 2024.1.3\bin;;D:\PyCharm 2024.1.3\bin;;D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;;c:\Users\Renan\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="java.vm.version" value="25.431-b10"/>
+    <property name="java.specification.maintenance.version" value="6"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_431\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="66.0"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="initializationError" classname="automatizado.teste.GoogleTest" time="0.006">
-    <error message="Method iniciar() should be public" type="java.lang.Exception">java.lang.Exception: Method iniciar() should be public
-</error>
-  </testcase>
-  <testcase name="initializationError" classname="automatizado.teste.GoogleTest" time="0.001">
-    <error message="Method finalizar() should be public" type="java.lang.Exception">java.lang.Exception: Method finalizar() should be public
+  <testcase name="pesquisarNoGoogle" classname="automatizado.teste.GoogleTest" time="0.325"/>
+  <testcase name="pesquisarNoGoogle2" classname="automatizado.teste.GoogleTest" time="2.866">
+    <error message="element not interactable&#10;  (Session info: chrome=132.0.6834.111)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ECHO&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_431&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\Renan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4374826d1ffc6772e924ff0ff918862e" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=132.0.6834.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ECHO', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_431'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\Renan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4374826d1ffc6772e924ff0ff918862e
+	at automatizado.teste.GoogleTest.pesquisarNoGoogle2(GoogleTest.java:32)
 </error>
   </testcase>
 </testsuite>

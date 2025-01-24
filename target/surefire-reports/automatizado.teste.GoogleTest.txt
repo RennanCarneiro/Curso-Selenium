@@ -1,10 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: automatizado.teste.GoogleTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.037 s <<< FAILURE! - in automatizado.teste.GoogleTest
-initializationError(automatizado.teste.GoogleTest)  Time elapsed: 0.006 s  <<< ERROR!
-java.lang.Exception: Method iniciar() should be public
-
-initializationError(automatizado.teste.GoogleTest)  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.Exception: Method finalizar() should be public
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.987 s <<< FAILURE! - in automatizado.teste.GoogleTest
+pesquisarNoGoogle2(automatizado.teste.GoogleTest)  Time elapsed: 2.866 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=132.0.6834.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ECHO', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_431'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\Renan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4374826d1ffc6772e924ff0ff918862e
+	at automatizado.teste.GoogleTest.pesquisarNoGoogle2(GoogleTest.java:32)
 
