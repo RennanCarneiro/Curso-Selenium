@@ -11,7 +11,9 @@ public class GoogleTest extends baseTest{
     private static GooglePO googlepage;
     @BeforeClass
     public static void prepararTestes(){
+        driver.get("https://www.google.com/");
         googlepage = new GooglePO(driver);
+        
     }
 
     @Test
