@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="automatizado.teste.GoogleTest" time="4.302" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="automatizado.teste.ControleDeProdutoTest" time="10.063" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Renan\AppData\Local\Temp\surefire4358199829695519346\surefirebooter10804605085870496876.jar C:\Users\Renan\AppData\Local\Temp\surefire4358199829695519346 2025-01-27T19-39-11_378-jvmRun1 surefire1874219939298696629tmp surefire_010930932164080697937tmp"/>
+    <property name="sun.java.command" value="C:\Users\Renan\AppData\Local\Temp\surefire8933789051093061342\surefirebooter6837066586033985654.jar C:\Users\Renan\AppData\Local\Temp\surefire8933789051093061342 2025-01-27T20-49-25_505-jvmRun1 surefire8842557990294955388tmp surefire_09543996933004658914tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="automatizado.teste.GoogleTest#TCC001_pesquisarNoGoogle"/>
+    <property name="test" value="automatizado.teste.ControleDeProdutoTest#TC002_naoCadastrarUmProdutoSemPreencherTodosOsCampos"/>
     <property name="surefire.test.class.path" value="C:\Users\Renan\OneDrive\Área de Trabalho\prog\selenium\Curso-Selenium\curso-selenium\treino-selenium\target\test-classes;C:\Users\Renan\OneDrive\Área de Trabalho\prog\selenium\Curso-Selenium\curso-selenium\treino-selenium\target\classes;C:\Users\Renan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Renan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Renan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Renan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Renan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Renan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Renan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Renan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Renan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Renan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Renan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Renan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Renan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Renan"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Renan\AppData\Local\Temp\surefire4358199829695519346\surefirebooter10804605085870496876.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Renan\AppData\Local\Temp\surefire8933789051093061342\surefirebooter6837066586033985654.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="TCC001_pesquisarNoGoogle" classname="automatizado.teste.GoogleTest" time="1.767"/>
+  <testcase name="TC002_naoCadastrarUmProdutoSemPreencherTodosOsCampos" classname="automatizado.teste.ControleDeProdutoTest" time="6.413"/>
 </testsuite>

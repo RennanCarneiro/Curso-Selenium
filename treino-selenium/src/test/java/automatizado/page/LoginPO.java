@@ -1,6 +1,5 @@
 package automatizado.page;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,10 +24,6 @@ public class LoginPO  extends BasePO{
      * @param input campo de texto
      * @param texto texto a ser escrito
      */
-    public void escrever(WebElement input, String texto){
-        input.clear();
-        input.sendKeys(texto + Keys.TAB);
-    }
     /**
      * Metodo que irá obter a mensagem de erro
      * @return
